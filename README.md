@@ -3,11 +3,11 @@
 This project attempts to classify whether a given building in NYC is above or below the national median in Source Energy Use Intensity (EUI) using building energy consumption data from the 2016 Energy and Water Data Disclosure for New York City Local Law 84. 
 
 # Tech Stack 
--Python
--Pandas
--Matplotlib
--Seaborn
--Scikit-Learn
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-Learn
 
 # EDA
 
