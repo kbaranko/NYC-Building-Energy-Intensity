@@ -22,6 +22,38 @@ There was a fairly even distribution of buildings above (5,939) and below (4,639
 ![Distribution by Building Type (95 percentile sample)](images/highestpiebreakdown.png)
 
 
+#Feature Engineering
+
+Features used in final model are shown below. Building electricity and natural gas load estimates were computed according to DOE commercial building estimates. Continous variables were normalized and categorical variables were one-hot encoded. 
+
+Included:
+- Borough
+- Number of Buildings on property
+- Primary Property Type 
+- Gross Floor Area (standardized)
+- Year Built (standardized)
+
+Engineered:
+- Median Income for Zip (standardized)
+- % electricity load attributed to equipment, lighting, cooling, refrigeration (each a separate feature)
+- % gas load coming attributed to equipment, heating, water systems (each a separate feature)
+- % of total energy demand coming from electricity 
+
+#Modeling - Random Forest
+
+Baseline model is random guessing. 56% of samples are above median and 44% are below. Question: given a building’s age, size, type, and load breakdown, is its EUI above or below the national median?
+
+The Random Forest algorithm performed best with an accuracy of ~66%. 
+
+![Correlation Matrix](images/matrix.png)
+
+![Additional Metrics](images/precision-recall.png)
+
+
+
+
+
+
 
 
 
