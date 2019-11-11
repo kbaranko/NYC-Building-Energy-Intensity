@@ -13,9 +13,7 @@ This project attempts to classify whether a given building in NYC is above or be
 
 For modeling I use feature and target data from New York City buildings from the 2016 calendar year. Data was cleaned, analyzed, and categorical data was label-encoded.
 
-There was a fairly even distribution of buildings above and below the national median EUI. Dependent variable distribution viewed on a logarithmic scale below. Additionally, the change in distribution by building type between total sample and 95 percentile in EUI (labeled as "exteremely high") is shown in the two contrasting pie charts.
-
-![Samples Above (1) and Below (0) National Median ](images/Screen Shot 2019-11-01 at 12.52.47 PM.png)
+There was a fairly even distribution of buildings above (5,939) and below (4,639) the national median EUI. Dependent variable distribution viewed on a logarithmic scale below. Additionally, the change in distribution by building type between total sample and 95 percentile in EUI (labeled as "exteremely high") is shown in the two contrasting pie charts.
 
 ![Distribution of Building EUI in NYC (logarithmic scale)](images/distrib.png)
 
