@@ -49,6 +49,19 @@ The Random Forest algorithm performed best with an accuracy of ~66%.
 
 ![Additional Metrics](images/precision-recall.png)
 
+#Feature Selection
+
+The most important features were Gross Floor Area, Year Built, and Median Income for Zip. 
+
+![Correlation Matrix](images/featureimportance.png)
+
+
+#Conclusions / Next Steps 
+- Some samples had to be dropped because zip code median income data was missing. Sourcing and consistency in median income by zip code would help validity of the model.
+- Individual load data for each building would make the model more helpful. 
+- There is class imbalance with building type, so during train-test splits, smaller sample categories, like hospitals, could all be included in either the training set or testing set. 
+
+
 
 
 
